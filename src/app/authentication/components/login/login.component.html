@@ -1,0 +1,20 @@
+<div class="loginform-container">
+  <form [formGroup]="loginForm" (ngSubmit)="onLoginFormSubmit()">
+    <div class="form-group">
+      <label for="title">
+        <span id="loginLabel" i18n="@@loginform">Login Form</span>
+      </label>
+    </div>
+    <div class="form-group">
+      <label for="User Name" i18n="@@username">User Name</label>
+      <input type="text" formControlName="userName" class="form-control form-field" id="username" aria-describedby="username" placeholder="User Name"
+        i18n-placeholder="User Name Placeholder" required/>
+    </div>
+    <div class="form-group">
+      <label for="Password" i18n="@@password">Password</label>
+      <input type="password" formControlName="password" class="form-control form-field" id="password" placeholder="Password" i18n-placeholder="Password Placeholder"
+        required>
+    </div>
+    <button id="submit" type="submit" class="btn btn-primary" i18n="@@loginSubmit">Login</button>
+  </form>
+</div>

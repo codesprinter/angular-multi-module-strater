@@ -1,0 +1,22 @@
+{
+    "questionstableheader":"質問リスト",
+    "questionstructure": "質問構造",
+    "questiontype": "質問タイプ",
+    "questionslocale": "質問",
+    "estimatedtime" : "予想時間",
+    "sequenceid" : "シーケンスID",
+    "edit": "編集",
+    "addquestion" : "質問を追加",
+    "keywordcategorylocale":"キーワードカテゴリー",
+    "prioritylocale": "優先度",
+    "lowpriority":"低",
+    "mid": "中",
+    "high": "高",
+    "questionaddsubmit": "送信",
+    "deepdig": "深く掘る",
+    "subject": "主題",
+    "yesquestiondelete": "はい",
+    "questionreference": "参照質問",
+    "validationtag": "検証タグ",
+    "validationlabel": "検証ラベル"
+}
